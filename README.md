@@ -41,3 +41,19 @@ Parses relevant information (title, description, author, keywords, and thumbnail
 	link.getAuthor();
 	link.getKeywords();
 	link.getThumbnail();
+	
+	### Using as a Maven dependency
+
+Building
+-----------
+Building from source with Maven
+
+	$ mvn install
+
+Declare it in your pom.xml
+
+	<dependency>
+		<groupId>storm</groupId>
+		<artifactId>storm-solr</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</dependency>	
