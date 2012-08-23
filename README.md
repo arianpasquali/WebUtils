@@ -53,7 +53,7 @@ Building from source with Maven
 Declare it in your pom.xml
 
 	<dependency>
-		<groupId>storm</groupId>
-		<artifactId>storm-solr</artifactId>
-		<version>1.0-SNAPSHOT</version>
+		<groupId>net.cpdomina</groupId>
+		<artifactId>webutils</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
 	</dependency>	
