@@ -42,7 +42,7 @@ Parses relevant information (title, description, author, keywords, and thumbnail
 	link.getKeywords();
 	link.getThumbnail();
 	
-	### Using as a Maven dependency
+	### 
 
 Building
 -----------
@@ -50,7 +50,7 @@ Building from source with Maven
 
 	$ mvn install
 
-Declare it in your pom.xml
+Using as a Maven dependency
 
 	<dependency>
 		<groupId>net.cpdomina</groupId>
